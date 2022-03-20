@@ -1,5 +1,7 @@
-hello:
-    echo "my first comment"
- install:
-    echo "this"
+install:
+    pip install --upgrade pip &&\
+        pip install -r requirements.txt
+
+    
+    
        
